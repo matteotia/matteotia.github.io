@@ -5,7 +5,9 @@
 <!-- organizzazione dello spazio attraverso i frameset -->
 <frameset rows="15%, *" border="no">
   <frame src="Titolo.html">
-  <frameset cols="24%, *" border="1">
+  <frameset cols="15%, *" border="1">
     <frame marginwidth="30" marginheight="20" name="Scelta" id="Scelta" src="Scelta.html">
-    <frame marginwidth="30" marginheight="20" name="Contenuto" id="Contenuto" src="Peste.html">
+    <frameset rows="80, *" border="1">
+     <frame marginwidth="30" marginheight="20" name="NomeMalattia" id="NomeMalattia" src="Peste/NomePeste.html"> <!-- perché NomePeste è dentro la cartella Peste-->
+     <frame marginwidth="30" marginheight="20" name="Contenuto" id="Contenuto" src="Peste/PestePaginaPrincipale.html">
 </html>
