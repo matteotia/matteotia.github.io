@@ -35,7 +35,3 @@ li{font-size: 135%;}
 ul{
     list-style-image: url('Immagini/marcatore_liste.png');
 }
-
-siti.ul{
-  list-style-image: none;
-}
