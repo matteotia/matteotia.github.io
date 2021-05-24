@@ -1,0 +1,38 @@
+/*pseudo-classe per gestire i link in generale*/
+a:link{
+   color: 	#20b2aa;
+   text-decoration: none; /*nessuna decorazione (es underline)*/
+}
+/*descrive com'è il link quando si clicca*/
+a:active{
+  color: #40e0d0;
+}
+/*descrive com'è il link quando il mouse ci passa sopra*/
+a:hover{
+  color: #40e0d0;
+}
+/*descrive com'è il link dopo che è stato visitato*/
+a:visited{
+  color: 	#008080;
+}
+
+li{
+  list-style-type: none;  /*nessuno style-type per i li (pallino ecc)*/
+  font-size: 135%; /*dimensioni li*/
+}
+
+.menu{
+  font-size: 125%;
+  text-align: center;
+}
+
+.img-centrata {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+td.menu:hover {
+    background-color: #d6d4e0;
+}
